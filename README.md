@@ -1,3 +1,3 @@
 <h1 align="center">
-  <b>SL Auto Filter Bot</b>
+  <b>Filters Bot</b>
 </h1>
