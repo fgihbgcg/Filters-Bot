@@ -57,6 +57,8 @@ class script(object):
 • /users_broadcast - Broadcast Message All Users
 • /groups_broadcast - Broadcast Message All Groups"""
 
+    SOURCECODE_TXT = """Ask Here: <a href=https://t.me/Hansaka_Anuhas>Hansaka Anuhas</a> 🇱🇰"""
+
     STATUS_TXT = """★ Total Files: <code>{}</code>
 ★ Total Users: <code>{}</code>
 ★ Total Groups: <code>{}</code>
