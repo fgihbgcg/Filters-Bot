@@ -460,7 +460,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Report Bugs and Feedback', url=f'https://t.me/{SUPPORT_CHAT}')
        ], [
-            InlineKeyboardButton('Status', callback_data='status'),
+            InlineKeyboardButton('Bot Status', callback_data='bot_status'),
             InlineKeyboardButton('Source Code', callback_data='source_code')
        ], [
             InlineKeyboardButton('◀️ Back', callback_data='start')
@@ -558,7 +558,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "status":
+    elif query.data == "bot_status":
         buttons = [[
             InlineKeyboardButton('◀️ Back', callback_data='about')
         ]]
@@ -571,7 +571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         monsize = get_size(monsize)
         free = get_size(free)
         await query.message.edit_text(
-            text=script.STATUS_TXT.format(total, users, chats, monsize, free),
+            text=script.BOTSTATUS_TXT.format(total, users, chats, monsize, free),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
