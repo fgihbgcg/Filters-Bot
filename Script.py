@@ -59,7 +59,7 @@ class script(object):
 
     SOURCECODE_TXT = """Ask Here: <a href=https://t.me/Hansaka_Anuhas>Hansaka Anuhas</a> 🇱🇰"""
 
-    STATUS_TXT = """★ Total Files: <code>{}</code>
+    BOTSTATUS_TXT = """★ Total Files: <code>{}</code>
 ★ Total Users: <code>{}</code>
 ★ Total Groups: <code>{}</code>
 ★ Used Storage: <code>{}</code>
